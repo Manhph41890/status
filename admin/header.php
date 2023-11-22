@@ -89,6 +89,9 @@
                                 <li class="sidebar-item"><a href="index.php?act=listdm" class="sidebar-link"><i
                                             class="mdi mdi-note-plus"></i><span class="hide-menu"> Danh Sách Danh Mục
                                         </span></a></li>
+                                <li class="sidebar-item"><a href="index.php?act=suadm" class="sidebar-link"><i
+                                    class="mdi mdi-note-plus"></i><span class="hide-menu"> Cập Nhật Danh Mục
+                                </span></a></li>
                             </ul>
                         </li>
 
@@ -104,6 +107,20 @@
                                             phẩm </span></a></li>
                             </ul>
                         </li>
+
+                        <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark"
+                                href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span
+                                    class="hide-menu">Hình ảnh</span></a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item"><a href="index.php?act=addanh" class="sidebar-link"><i
+                                            class="mdi mdi-note-outline"></i><span class="hide-menu"> Thêm Ảnh
+                                        </span></a></li>
+                                <li class="sidebar-item"><a href="index.php?act=listanh" class="sidebar-link"><i
+                                            class="mdi mdi-note-plus"></i><span class="hide-menu"> Danh Sách Ảnh
+                                        </span></a></li>
+                            </ul>
+                        </li>
+
                         <li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark"
                                 href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-account-key"></i><span
                                     class="hide-menu">Khách Hàng </span></a>

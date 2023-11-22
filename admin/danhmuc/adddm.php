@@ -3,17 +3,21 @@
     </header>
 
     <section>
-        <form action="index.php?act=adddanhmuc" method="post">
+        <form action="index.php?act=adddm" method="post">
         <label for="ma-loai">Mã loại:</label>
-        <input type="text" id="ma-loai" name="ma-loai">
+        <input type="text" id="ma-loai" name="maloai">
 
         <label for="ten-loai">Tên loại:</label>
-        <input type="text" id="ten-loai" name="ten-loai">
+        <input type="text" id="tenloai" name="tenloai">
 
-        <div class="actions">
-            <button onclick="themMoi()" type="submit">Thêm mới</button>
-            <button type="reset">Nhập lại</button>
+        <div class="actions"><br>
+            <input type="submit" name="themmoi" value="Thêm mới"><br><br>
+            <input type="reset" value="Nhập lại" ><br><br>
             <a href="index.php?act=listdm">Danh sách</a>
         </div>
+        <?php 
+            if(isset($thongbao)&&($thongbao!=""))
+            echo $thongbao;
+        ?>   
         </form>
     </section>
